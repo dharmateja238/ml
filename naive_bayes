@@ -31,8 +31,7 @@ else:
     print("The boy cannot play golf on a sunny day.")
 
 
-#import pandas as pd
-
+import pandas as pd
 # create the dataset as a pandas DataFrame
 data = {'Outlook': ['Rainy', 'Sunny', 'Overcast', 'Overcast', 'Sunny', 'Rainy', 'Sunny', 'Overcast', 'Rainy', 'Sunny', 'Sunny', 'Rainy', 'Overcast', 'Overcast'],
         'Play': ['Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'No', 'Yes', 'Yes']}
